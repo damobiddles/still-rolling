@@ -1,9 +1,9 @@
 (() => {
   document.documentElement.classList.add("js");
   const store = {
-    get(k, d) { try { const v = localStorage.getItem("matready:" + k); return v === null ? d : JSON.parse(v); } catch { return d; } },
-    set(k, v) { try { localStorage.setItem("matready:" + k, JSON.stringify(v)); } catch {} },
-    del(k) { try { localStorage.removeItem("matready:" + k); } catch {} },
+    get(k, d) { try { const v = localStorage.getItem("stillrolling:" + k); return v === null ? d : JSON.parse(v); } catch { return d; } },
+    set(k, v) { try { localStorage.setItem("stillrolling:" + k, JSON.stringify(v)); } catch {} },
+    del(k) { try { localStorage.removeItem("stillrolling:" + k); } catch {} },
   };
 
   // Niggle picker: highlight matching exercises and reveal their tweaks.

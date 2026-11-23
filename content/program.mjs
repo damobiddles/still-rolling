@@ -5,7 +5,7 @@
 // Then run `node build.mjs`.
 
 export const site = {
-  name: "Mat Ready",
+  name: "Still Rolling",
   tagline: "Home strength for grapplers over 50",
   description:
     "A free, low-kit home strength plan for grapplers in their 50s with a dodgy hip or shoulder. Two short sessions a week, built to keep you on the mats.",
